@@ -4,7 +4,9 @@
   "description": "example node webapp made for Pluralsight training",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app nodemon app",
+    "debug": "DEBUG=* nodemon app"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,16 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "debug": "^4.3.1",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9"
+  },
+  "nodemonConfig": {
+    "restatable": "rs",
+    "delay": 2500,
+    "env": {
+      "PORT": 4000
+    }
   }
 }
