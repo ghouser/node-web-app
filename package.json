@@ -1,0 +1,19 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "example node webapp made for Pluralsight training",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ghouser/node-web-app.git"
+  },
+  "author": "Graham Houser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghouser/node-web-app/issues"
+  },
+  "homepage": "https://github.com/ghouser/node-web-app#readme"
+}
