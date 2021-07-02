@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ghouser/node-web-app/issues"
   },
-  "homepage": "https://github.com/ghouser/node-web-app#readme"
+  "homepage": "https://github.com/ghouser/node-web-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
